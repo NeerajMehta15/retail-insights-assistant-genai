@@ -57,32 +57,33 @@ The final response is generated using an LLM with prompt templates designed for 
 retail-insights-assistant-genai/
 │
 ├── data/
-│ ├── raw/ # Raw input datasets (CSV)
-│ └── processed/ # Cleaned / transformed data
+│   ├── raw/                     # Raw input datasets (CSV)
+│   └── processed/               # Cleaned / transformed data
 │
 ├── agents/
-│ ├── query_agent.py # Language → query resolution
-│ ├── data_agent.py # Data extraction & execution
-│ └── validation_agent.py # Result validation & confidence checks
+│   ├── query_agent.py            # Language → query resolution
+│   ├── data_agent.py             # Data extraction & execution
+│   └── validation_agent.py       # Result validation & confidence checks
 │
 ├── prompts/
-│ ├── summarization.txt
-│ ├── qa.txt
-│ └── system_instructions.txt
+│   ├── summarization.txt
+│   ├── qa.txt
+│   └── system_instructions.txt
 │
 ├── app/
-│ ├── main.py # Entry point
-│ └── ui.py # Streamlit UI (optional)
+│   ├── main.py                   # Entry point
+│   └── ui.py                     # Streamlit UI (optional)
 │
 ├── architecture/
-│ └── Retail_Insights_Assistant_Architecture.pdf
+│   └── Retail_Insights_Assistant_Architecture.pdf
 │
 ├── screenshots/
-│ ├── summary_output.png
-│ └── qa_example.png
+│   ├── summary_output.png
+│   └── qa_example.png
 │
 ├── requirements.txt
 └── README.md
+
 
 ---
  ## Example Queries
